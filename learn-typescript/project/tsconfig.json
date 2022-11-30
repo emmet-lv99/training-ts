@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowJs": true, //자바스크립트까지 허용한다.
+    "target": "ES5",
+    "outDir": "./built",
+    "moduleResolution": "Node" // promise 관련 코드를 인식시키기 위한 션션 
+  },
+  "include": ["./src/**/*"] // 어떤 폴더를 대상으로 타입스크립트를 컴퍼일 할거냐, src 폴더 아래의 모든 파일을 대상으로 하겠다.
+}
