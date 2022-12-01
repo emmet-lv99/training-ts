@@ -4,7 +4,8 @@
     "target": "ES5",
     "outDir": "./built",
     "moduleResolution": "Node", // promise 관련 코드를 인식시키기 위한 션션 
-    "lib": [ "es2015", "DOM", "DOM.Iterable" ]
+    "lib": [ "es2015", "DOM", "DOM.Iterable" ],
+    "noImplicitAny": true
   },
   "include": ["./src/**/*"] // 어떤 폴더를 대상으로 타입스크립트를 컴퍼일 할거냐, src 폴더 아래의 모든 파일을 대상으로 하겠다.
 }
